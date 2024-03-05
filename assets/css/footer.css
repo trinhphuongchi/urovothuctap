@@ -1,0 +1,83 @@
+ul,
+ol {
+    padding: 0;
+}
+.footer {
+    padding-top: 50px;
+    background: #e8e8e8;
+}
+.footer .foot-register {
+    background-color: #00a7d2;
+    border: 2px solid #00a7d2;
+    box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    height: 55px;
+    letter-spacing: 1px;
+    padding: 6px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: all 0.2s ease;
+    width: 125px;
+    cursor: pointer;
+}
+.footer .foot-register:hover {
+    background-color: #66caff;
+    border: 2px solid #66caff;
+    text-decoration: none;
+}
+.footer .f-mess {
+    width: 125px;
+    vertical-align: top;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .f-mess a {
+    color: #666;
+}
+.footer .f-mess i {
+    font-size: 2.4rem;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+}
+.footer .foot-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 17px 0;
+}
+.footer .foot-row {
+    display: flex;
+}
+.footer .row-top {
+    gap: 40px;
+}
+.footer .foot-nav {
+    max-width: 725px;
+}
+.footer .heading {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+.footer .item {
+    margin-bottom: 15px;
+}
+.footer .item a {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #888;
+    white-space: nowrap;
+}
+.footer .copyright {
+    margin-left: auto;
+    color: #888;
+    font-size: 1.3rem;
+    line-height: 2;
+}
